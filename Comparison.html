@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+p:hover, h2:hover, a:hover, img:hover {
+    background-color: yellow;
+}
+</style>
+
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="file:///Users/meriedithumali/Desktop/Learn-Web/dashboard.html">Lattitude</a>
+
+  <!-- Links -->
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="file:///Users/meriedithumali/Desktop/Learn-Web/Data.html">Data</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="file:///Users/meriedithumali/Desktop/Learn-Web/Comparison.html">Comparison</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Plots
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Temp-Page.html">MaxTemp</a>
+        <a class="dropdown-item" href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Humid-Page.html">Humidity</a>
+        <a class="dropdown-item" href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Cloud-Page.html">Cloudiness</a>
+        <a class="dropdown-item" href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Wind-Page.html">WindSpeed</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+
+
+Click any plot to get an in-depth analysis.
+    <br>
+
+<div class="container">
+<div class="row">
+
+    <div class="col-sm-6">
+        <div class="text-center">
+
+        <h2>vs. Temperature</h2>
+        <a href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Temp-Page.html"><img class="img-fluid" src="Temperature.png" title="MaxTemperature" width="460" height="345"></a>
+    </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="text-center">
+
+        <h2>vs. Humidity</h2>
+        <a href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Humid-Page.html"><img class="img-fluid" src="Humidity.png" title="Humidity" width="460" height="345"></a>
+    </div>
+    </div>
+
+    <div class="col-sm-6">
+        <div class="text-center">
+            ___________________________________________________________________
+        <h2>vs. Cloudiness</h2>
+        <a href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Cloud-Page.html"><img class="img-fluid"  src="Cloudiness.png" title="Cloudiness" width="460" height="345"></a>
+    </div>
+    </div>
+
+
+    <div class="col-sm-6">
+        <div class="text-center">
+            ___________________________________________________________________
+        <h2>vs. Wind Speed</h2>
+        <a href="file:///Users/meriedithumali/Desktop/Learn-Web/Viz-Wind-Page.html"><img class="img-fluid" src="Wind_Speed.png" title="Wind_Speed" width="460" height="345"></a>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+
+</html>
